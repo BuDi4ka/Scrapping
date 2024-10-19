@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scrapping"
+version = "0.1.0"
+description = ""
+authors = ["BuDi4ka <dddd09399@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+lxml = "^5.3.0"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+sqlalchemy = "^2.0.36"
+scrapy = "^2.11.2"
+mongoengine = "^0.29.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
